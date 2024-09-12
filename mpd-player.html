@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKASH GO Player</title>
+    <!-- Include JW Player JavaScript Library -->
+    <script src="https://content.jwplatform.com/libraries/Z79JsmAO.js"></script>
+    <style>
+        /* Fullscreen styles for the player */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black; /* Background color for better visibility */
+        }
+
+        #jwplayerDiv {
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+        }
+    </style>
+</head>
+<body>
+    <!-- Create a DIV container for JW Player -->
+    <div id="jwplayerDiv"></div>
+
+    <script>
+        // Initialize JW Player
+        jwplayer("jwplayerDiv").setup({
+            file: "https://medialive.akash-go.com/out/v1/fb49908b8b3247a8ba7329726bad5753/index.mpd",
+            type: "dash",  // Specify the type as DASH
+            drm: {
+                clearkey: {
+                    key: "6282b6a6eb11b112599090c56a9d48e0",  // ClearKey DRM key
+                    keyId: "42ed519238ae4e9298738b6b67a1b91b"  // ClearKey DRM key ID
+                }
+            },
+            width: "100%",  // Full width
+            height: "100%",  // Full height
+            stretching: "fill",  // Ensures the player fills the container
+            autostart: true,  // Set to true to autoplay if needed
+            controls: true,  // Show controls for playback
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='id' style='background-color: #1ab188;' xml:lang='id' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<style id='page-skin-1' type='text/css'><!--
+/* ======================================
+GD Template Blogger
+======================================
+Name      : Vid-Player Version 3
+Version   : 3.0
+Date      : 21-03-2023
+***************************************
+This theme is Premium Only.
+*************************************** */
+/*Main CSS */
+body{margin:0;padding:0}*,:after,:before{box-sizing:border-box}html{overflow-y:scroll}body{font-family:'Titillium Web',sans-serif}a{text-decoration:none;color:#1ab188;transition:.5s ease}a:hover{color:#179b77}#createIframe{display:none}#arsipin,#fluid_video_wrapper_video,body>.plyr{position:absolute;width:100%!important;height:100%!important}.jw-button-color:hover,.jw-open,.jw-progress,.jw-toggle,.jw-toggle:hover{color:#008fee!important}.jw-active-option{background-color:#008fee!important}.jw-progress{background:#008fee!important}.jw-skin-seven .jw-toggle.jw-off{color:#fff!important}.form{background:rgba(19, 35, 47, 0.97);padding:40px;max-width:600px;margin:40px auto;border-radius:4px;box-shadow:0 4px 10px 4px rgba(19,35,47,.3)}.tab-group{list-style:none;padding:0;margin:0 0 40px 0}.tab-group:after{content:"";display:table;clear:both}.tab-group li a{display:block;text-decoration:none;padding:15px;background:rgba(160,179,176,.25);color:#a0b3b0;font-size:20px;float:left;width:50%;text-align:center;cursor:pointer;transition:.5s ease}.tab-group li a:hover{background:#179b77;color:#fff}.tab-group .active a{background:#1ab188;color:#fff}.tab-content>div:last-child{display:none}h1{text-align:center;color:#fff;font-weight:300;margin:0 0 40px}label{color:rgba(255,255,255,.5);transition:all .25s ease;font-size:14px;margin-left:5px}label .req{margin:2px;color:#1ab188}input,select,textarea{font-size:22px;display:block;width:100%;height:100%;padding:5px 10px;background:0 0;background-image:none;border:1px solid #a0b3b0;color:#fff;border-radius:0;transition:border-color .25s ease,box-shadow .25s ease;margin-top:5px}select option{background-color:rgba(19,35,47,.9)}input:focus,select:focus,textarea:focus{outline:0;border-color:#1ab188}textarea{border:2px solid #a0b3b0;resize:vertical}.field-wrap{position:relative;margin-bottom:40px}.top-row:after{content:"";display:table;clear:both}.top-row>div{float:left;width:48%;margin-right:4%}.top-row>div:last-child{margin:0}.button{border:0;outline:0;border-radius:0;padding:15px 0;font-size:2rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;background:#1ab188;color:#fff;transition:all .5s ease;-webkit-appearance:none}.button:focus,.button:hover{background:#179b77}.button-block{display:block;width:100%}.forgot{margin-top:-20px;text-align:right}.box_item_ads_popup{position:fixed;z-index:999;left:0;margin:0 auto;text-align:center;right:0}.box_item_ads_popup img{max-width:350px;max-height:350px}.box_item_ads_popup .close-button{width:30%;margin:auto;padding:6px 10px;background:red;font-size:11px;color:#fff}.box_item_ads_popup{display:flex;justify-content:center;align-items:center;background:0 0;height:100%;width:460px;height:100%;opacity:0;transition:opacity .3s ease-in}@media only screen and (max-width:980px){.box_item_ads_popup img{max-width:300px;max-height:250px}.box_item_ads_popup{width:450px}}@media only screen and (max-width:480px){.box_item_ads_popup img{max-width:280px;max-height:170px}.box_item_ads_popup{width:335px}}@media only screen and (max-width:425px){.box_item_ads_popup img{max-width:250px;max-height:140px}.box_item_ads_popup{width:335px}}@media only screen and (max-width:320px){.box_item_ads_popup img{max-width:210px;max-height:120px}.box_item_ads_popup{width:335px}}
+.enlaces {text-align: center;}
+.enlaces a {display: inline-block;padding: 5px;background: #000;margin: 10px 5px;border-radius: 6px;font-size: 14px;}
+.mostad {display: none;position: absolute;}
+.headerbox {position: absolute;z-index: 999;max-width: 130px;right: 0;padding: 10px;}
+.headerbox img {width: 100%;height: auto;}
+html {background: #000;}
+@media only screen and (max-width:980px){.box_item_ads_popup img{max-width:300px;max-height:250px}.box_item_ads_popup{width:450px}}
+@media only screen and (max-width:480px){.box_item_ads_popup img{max-width:280px;max-height:170px}.box_item_ads_popup{width:335px}}
+@media only screen and (max-width:425px){.box_item_ads_popup img{max-width:250px;max-height:140px}.box_item_ads_popup{width:335px}}
+@media only screen and (max-width:320px){.box_item_ads_popup img{max-width:210px;max-height:120px}.box_item_ads_popup{width:335px}}
+.post-body img, .post-body .tr-caption-container {padding: 0;width:auto;max-width:100%;height:auto;}
+.popSc{position:fixed;z-index:99999;top:0;bottom:0;left:0;right:0;padding:20px;background:#f3f5fe;display:flex;justify-content:center;align-items:center}
+.popSc.hidden{display:none}
+.popSc .popBo{position:relative;background:#fff;max-width:400px;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:30px;border-radius:30px}
+.popSc .popBo svg{display:block;width:50px;height:50px;fill:none !important;stroke:#08102b;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+.popSc .popBo h2{margin:10px 0 15px 0;font-size:1.2rem;font-weight:800;color:#08102b}
+.popSc .popBo p{margin:0;line-height:1.7em;font-size:0.9rem;color:#08102b}
+.darkMode .popSc{background:#1f1f1f}
+.darkMode .popSc .popBo{background:#2c2d31}
+.darkMode .popSc .popBo svg{stroke:#fefefe}
+.darkMode .popSc .popBo p, .darkMode .popSc .popBo h2{color:#fefefe}
+ul, ul ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.menu {
+border-radius: 10px !important;
+background: #d8d3d3;
+margin: 10px;
+text-align: center;
+}
+.menu>li>a {
+color: #000;
+display: block;
+padding: 10px;
+}
+.menu ul li a {
+color: #080d29;
+padding: 10px;
+display: block;
+padding-top: 0;
+text-align: left;
+}
+.menu>li>a:hover,
+.menu>li>a.active {
+text-decoration: none;
+}
+.menu>li>a:hover span,
+.menu>li a.active span {
+background: 404040px;
+}
+
+--></style>
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+
+</head>
+<body itemscope='itemscope' itemtype='https://schema.org/WebPage'>
+<div class='headerbox borde'>
+<div class='header section' id='header' name='Logo de video'><div class='widget Header' data-version='2' id='Header1'>
+<div class='header-widget'>
+<a class='header-image-wrapper' href=''>
+<img alt='GDRIVE Youtube Hls Player generator' data-original-height='0' data-original-width='0' src='https://i.ibb.co.com/BnjN2GH/manik-boss-favicon.png' />
+</a>
+</div>
+</div></div>
+</div>
+<div class='section' id='createIframe'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='form'>
+<ul class='tab-group'>
+<li class='tab active'><a href='#signup'>Create</a></li>
+<li class='tab'><a href='#login'>Code</a></li>
+</ul>
+<div class='tab-content'>
+<div id='signup'>
+<h1>Create Player</h1>
+<form>
+<div class='top-row'>
+<div class='field-wrap'>
+<label>Player<span class='req'>*</span></label>
+<select name='player' required='required'>
+<option value=''>Select Player</option>
+<option value='fluidplayer'>Fluid Player</option>
+<option value='jwpl'>JWPlayer</option>
+<option value='plyr'>Plyr.io</option>
+<option value='video'>Video</option>
+</select>
+</div>
+<div class='field-wrap'>
+<label>Provider<span class='req'>*</span></label>
+<select disabled='disabled' name='provider' required='required'>
+<option value=''>Select Provider</option>
+<option value='gdrive'>Google Drive</option>
+<option value='rand'>Random</option>
+<option value='yt'>Youtube</option>
+</select>
+</div>
+</div>
+<div class='field-wrap'>
+<label>Format Video<span class='req'>*</span></label>
+<input autocomplete='off' disabled='disabled' name='format' placeholder='disabled' type='text'/>
+</div>
+<div class='field-wrap'>
+<label>Link Video<span class='req'>*</span>
+</label>
+<input autocomplete='off' name='link' placeholder='Link Video' required='required' type='text'/>
+</div>
+<button class='button button-block' type='submit'>Generate</button>
+</form>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<ul class='menu'>
+<li>
+<a href='#'>How To Generate Video ?</a>
+<ul>
+<li class='subitem1'>
+<a><b>Google Drive</b>
+<br/>1. Copy Google Drive Video Link <br/><br/><b>Note:- Video Should Public</b>
+<br/><br/>2. Copy Your Url Id (<b>"1cUjpSY9kSpCi62ilTJ
+  QYhDgW0I9hGpmH"</b>)
+<br/><br/>3. Ex. Url: (https://drive.google.c
+om/file/d/<b>1cUjpSY9kS
+  pCi62ilTJQYhDgW0
+  I9hGpmH</b>/view?usp=drivesdk") This is Id Of Your Video.
+<br/><br/>4.Then Select Your Player By Clicking On <b>"Select Player"</b>
+<br/><br/>5. Select Your Provider "<b>Select Provider"</b>
+<br/><br/>6. Paste Your <b>Video ID.</b>
+<br/><br/>7. Then Click On <b>Generate.</b>
+<br/><br/>8. After that you will get <b>Code</b> and <b>Link</b>
+<br/><br/>9. <b>Iframe Code</b> and <b>Direct link</b>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+<script type='text/javascript'>		
+$(function () {		
+var menu_ul = $('.menu > li > ul'),		
+menu_a = $('.menu > li > a');		
+menu_ul.hide();		
+menu_a.click(function (e) {		
+e.preventDefault();		
+if (!$(this).hasClass('active')) {		
+menu_a.removeClass('active');		
+menu_ul.filter(':visible').slideUp('fast');		
+$(this).addClass('active').next().stop(true, true).slideDown('fast');		
+} else {		
+$(this).removeClass('active');		
+$(this).next().stop(true, true).slideUp('fast');		
+}		
+});		
+});		
+</script>
+
+<div class='footer borde'>
+<div class='mostad'>
+<div class='lista no-items section' id='lista' name=' Anuncios'>
+</div>
+</div>
+</div>
+</div>
+<div id='login'>
+<h1>Your Code here</h1>
+<div class='field-wrap'>
+<label>Iframe Code<span class='req'>*</span></label>
+<textarea id='ifcode' type='text'></textarea>
+</div>
+<div class='field-wrap'>
+<label>Direct Link<span class='req'>*</span></label>
+<textarea id='links' type='text'></textarea>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<script>/*<![CDATA[*/
+    const config = {
+      gDriveApikey: "AIzaSyAjHmFEgW0hl51EzKfROSpdJ5Vf8K7DzPA",
+      poster: ".jpg",
+      license: "",
+      
+    };
+    (function () {
+      var _0xcf87 = [
+    "href",
+    "location",
+    "_0cxb",
+    "https://www.blogger.com/feeds/7839582476785344835/posts/default/",
+    "?alt=json&callback=config._0cxb",
+    "function",
+    "innerHTML",
+    "documentElement",
+    "body",
+    "getElementsByTagName",
+    "",
+    "hostname",
+    "content",
+    "entry",
+    "\\",
+    "replaceAll",
+    "$t",
+    "url",
+    "some",
+    "parse",
+    "x",
+    '<div class="box_item_ads_popup" style="opacity:1"><div><a href="',
+    '" target="_blank" rel="nofollow"> <img src="',
+    "image",
+    '" rel="nofollow" alt="',
+    "title",
+    '" title="',
+    '"></a><div class="close-button" onClick="(function(){document.querySelector(\'.box_item_ads_popup\').remove()})();return false;">',
+    "close",
+    "Tutup Iklan",
+    "</div></div></div>",
+    "write",
+    "<iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='",
+    "' width='560'></iframe>",
+    "link",
+    "createElement",
+    "rel",
+    "stylesheet",
+    "setAttribute",
+    "appendChild",
+    "head",
+    "script",
+    "src",
+    "load",
+    "onload",
+    "err",
+    "onerror",
+    "player",
+    "get",
+    "searchParams",
+    "remove",
+    "createIframe",
+    "getElementById",
+    "provider",
+    "format",
+    "fluidplayer",
+    "jwpl",
+    "video",
+    "gdrive",
+    "https://www.googleapis.com/drive/v3/files/",
+    "?alt=media&key=",
+    "gDriveApikey",
+    '<video id="video"><source src="',
+    '" type="',
+    '"/></video>',
+    "https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js",
+    "fply",
+    "poster",
+    '<div id="arsipin"></div>',
+    "https://content.jwplatform.com/libraries/zgIRUsiD.js",
+    "arsipin",
+    "captions",
+    "#FFFF00",
+    "setup",
+    '<video id="arsipin" controls poster="',
+    '"><source src="',
+    "plyr",
+    "https://cdn.plyr.io/3.7.2/plyr.css",
+    "yt",
+    '<div id="video" data-poster="',
+    '" data-plyr-provider="youtube" data-plyr-embed-id="',
+    '"></div>',
+    '<video id="video" playsinline controls data-poster="',
+    "https://cdn.plyr.io/3.7.2/plyr.js",
+    "#video",
+    "<p>xD</p>",
+    "ads",
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+    "slow",
+    "show",
+    "#createIframe",
+    "change",
+    "name",
+    "attr",
+    "length",
+    "val",
+    "select[name=provider]",
+    "disabled",
+    "option[value=yt]",
+    "find",
+    "input[name=format]",
+    "placeholder",
+    "ID Youtube",
+    "input[name=link]",
+    "video/mp4",
+    "ID GDRIVE",
+    "Link Video",
+    "on",
+    "select",
+    ".form",
+    "preventDefault",
+    "serializeArray",
+    "search",
+    "value",
+    "append",
+    "each",
+    "#ifcode",
+    "#links",
+    "click",
+    'a[href="#login"]',
+    "submit",
+    "#signup form",
+    "#signup",
+    "reset",
+    "trigger",
+    "textarea",
+    "select[name=player]",
+    "active",
+    "addClass",
+    "parent",
+    "removeClass",
+    "siblings",
+    "hide",
+    "not",
+    ".tab-content > div",
+    "fadeIn",
+    ".tab a",
+    "license",
+];
+var _0x30fe = [
+    _0xcf87[0],
+    _0xcf87[1],
+    _0xcf87[2],
+    _0xcf87[3],
+    _0xcf87[4],
+    _0xcf87[5],
+    _0xcf87[6],
+    _0xcf87[7],
+    _0xcf87[8],
+    _0xcf87[9],
+    _0xcf87[10],
+    _0xcf87[11],
+    _0xcf87[12],
+    _0xcf87[13],
+    _0xcf87[14],
+    _0xcf87[15],
+    _0xcf87[16],
+    _0xcf87[17],
+    _0xcf87[18],
+    _0xcf87[19],
+    _0xcf87[20],
+    _0xcf87[21],
+    _0xcf87[22],
+    _0xcf87[23],
+    _0xcf87[24],
+    _0xcf87[25],
+    _0xcf87[26],
+    _0xcf87[27],
+    _0xcf87[28],
+    _0xcf87[29],
+    _0xcf87[30],
+    _0xcf87[31],
+    _0xcf87[32],
+    _0xcf87[33],
+    _0xcf87[34],
+    _0xcf87[35],
+    _0xcf87[36],
+    _0xcf87[37],
+    _0xcf87[38],
+    _0xcf87[39],
+    _0xcf87[40],
+    _0xcf87[41],
+    _0xcf87[42],
+    _0xcf87[43],
+    _0xcf87[44],
+    _0xcf87[45],
+    _0xcf87[46],
+];
+var _0x6942 = [
+    _0xcf87[47],
+    _0xcf87[48],
+    _0xcf87[49],
+    _0xcf87[50],
+    _0xcf87[51],
+    _0xcf87[52],
+    _0xcf87[53],
+    _0xcf87[54],
+    _0xcf87[34],
+    _0xcf87[10],
+    _0xcf87[55],
+    _0xcf87[56],
+    _0xcf87[57],
+    _0xcf87[58],
+    _0xcf87[59],
+    _0xcf87[60],
+    _0xcf87[61],
+    _0xcf87[62],
+    _0xcf87[63],
+    _0xcf87[64],
+    _0xcf87[31],
+    _0xcf87[65],
+    _0xcf87[66],
+    _0xcf87[67],
+    _0xcf87[68],
+    _0xcf87[69],
+    _0xcf87[70],
+    _0xcf87[71],
+    _0xcf87[72],
+    _0xcf87[73],
+    _0xcf87[74],
+    _0xcf87[75],
+    _0xcf87[76],
+    _0xcf87[77],
+    _0xcf87[78],
+    _0xcf87[79],
+    _0xcf87[80],
+    _0xcf87[81],
+    _0xcf87[82],
+    _0xcf87[83],
+    _0xcf87[84],
+    _0xcf87[45],
+    _0xcf87[85],
+    _0xcf87[86],
+    _0xcf87[87],
+    _0xcf87[88],
+    _0xcf87[89],
+    _0xcf87[90],
+    _0xcf87[91],
+    _0xcf87[92],
+    _0xcf87[93],
+    _0xcf87[94],
+    _0xcf87[95],
+    _0xcf87[96],
+    _0xcf87[97],
+    _0xcf87[98],
+    _0xcf87[99],
+    _0xcf87[100],
+    _0xcf87[101],
+    _0xcf87[102],
+    _0xcf87[103],
+    _0xcf87[104],
+    _0xcf87[105],
+    _0xcf87[106],
+    _0xcf87[107],
+    _0xcf87[108],
+    _0xcf87[109],
+    _0xcf87[110],
+    _0xcf87[111],
+    _0xcf87[112],
+    _0xcf87[113],
+    _0xcf87[114],
+    _0xcf87[115],
+    _0xcf87[0],
+    _0xcf87[116],
+    _0xcf87[117],
+    _0xcf87[118],
+    _0xcf87[119],
+    _0xcf87[120],
+    _0xcf87[121],
+    _0xcf87[122],
+    _0xcf87[123],
+    _0xcf87[124],
+    _0xcf87[125],
+    _0xcf87[126],
+    _0xcf87[127],
+    _0xcf87[128],
+    _0xcf87[129],
+    _0xcf87[130],
+    _0xcf87[131],
+    _0xcf87[132],
+    _0xcf87[133],
+    _0xcf87[134],
+    _0xcf87[135],
+    _0xcf87[136],
+    _0xcf87[5],
+    _0xcf87[137],
+    _0xcf87[6],
+    _0xcf87[8],
+];
+      eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('2B h=[""];k e(){w l[g[1]][g[0]]=a()}k t(t){j[g[2]]=o,f({y:`${h[0]}${g[3]}${h[0]}${t}${h[0]}${g[4]}${h[0]}`,1B:k(){g[5]==U e?e():(n[g[7]]||n[g[8]]||n[g[9]](g[8])[0])[g[6]]=g[10]}})}k i(){w l[g[1]][g[11]]}k o(t){R(g[12]S t[g[13]]){A o=t[g[13]][g[12]][g[16]][g[15]](g[14],g[10]);R(1C[g[19]](o)[g[18]]((e)=>{w e[g[17]]==i()})){w!0};e()}1b{e()}}k r(e){w 1z(e)}k a(){w r(g[20])}J n=m,l=1A,c=(l||n)[g[1]][g[0]],s=1d 1G(c),d=(e)=>{m[g[P]](`${h[0]}${g[21]}${h[0]}${e[g[17]]}${h[0]}${g[22]}${h[0]}${e[g[23]]}${h[0]}${g[24]}${h[0]}${e[g[25]]}${h[0]}${g[26]}${h[0]}${e[g[25]]}${h[0]}${g[27]}${h[0]}${e[g[28]]||g[29]}${h[0]}${g[1h]}${h[0]}`)},p=(e)=>{w`${h[0]}${g[X]}${h[0]}${e}${h[0]}${g[1j]}${h[0]}`},u=(e)=>{A t=m[g[N]](g[M]);t[g[I]](g[1e],g[1i]),t[g[I]](g[0],e),m[g[1a]][g[W]](t)},f=(e)=>{A t=m[g[N]](g[1v]);t[g[T]]=e[g[T]],g[C]S e&&(t[g[Y]]=e[g[C]]),g[V]S e&&(t[g[1f]]=e[g[V]]),m[g[8]][g[W]](t)};R(s[b[2]][b[1]](b[0])){m[b[5]](b[4])[b[3]]();A e=s[b[2]][b[1]](b[0]),t=s[b[2]][b[1]](b[6]),i=s[b[2]][b[1]](b[7]),o=s[b[2]][b[1]](b[8]),r=b[9];b[10]==e||b[11]==e||b[12]==e?(r=b[13]==t?`${h[0]}${b[14]}${h[0]}${o}${h[0]}${b[15]}${h[0]}${j[b[16]]}${h[0]}${b[9]}${h[0]}`:o,b[10]==e?(m[b[20]](`${h[0]}${b[17]}${h[0]}${r}${h[0]}${b[18]}${h[0]}${i}${h[0]}${b[19]}${h[0]}`),f({y:b[21],F:k(){j[b[22]]=1E(b[12],{1F:{1x:{1w:3,1y:!0,1T:!0},1U:!0,1R:!0,1S:!0,1V:!1,1Y:!0,1Z:j[b[23]]}})}})):b[11]==e?(m[b[20]](b[24]),f({y:b[25],F:k(){j[b[11]]=1X(b[26]),j[b[11]][b[29]]({1K:b[9],1H:[{1c:b[9],1Q:b[27],1N:!0}],1O:[{1c:r,1P:i}],1M:j[b[23]],1J:{1I:b[28],1L:17,1W:q}})}})):b[12]==e&&m[b[20]](`${h[0]}${b[1h]}${h[0]}${j[b[23]]}${h[0]}${b[P]}${h[0]}${r}${h[0]}${b[18]}${h[0]}${i}${h[0]}${b[19]}${h[0]}`)):b[X]==e?(u(b[1j]),b[M]==t?m[b[20]](`${h[0]}${b[N]}${h[0]}${j[b[23]]}${h[0]}${b[1e]}${h[0]}${o}${h[0]}${b[1i]}${h[0]}`):(r=b[13]==t?`${h[0]}${b[14]}${h[0]}${o}${h[0]}${b[15]}${h[0]}${j[b[16]]}${h[0]}${b[9]}${h[0]}`:o,m[b[20]](`${h[0]}${b[I]}${h[0]}${j[b[23]]}${h[0]}${b[P]}${h[0]}${r}${h[0]}${b[18]}${h[0]}${i}${h[0]}${b[19]}${h[0]}`)),f({y:b[W],F:k(){j[b[X]]=1d 1D(b[1a])}})):m[b[20]](j[b[1v]]||b[T]),j[b[C]]&&d(j[b[C]])}1b{f({y:b[Y],F:k(){$(b[2v])[b[1f]](b[V]),$(b[2A])[b[K]](b[2z])[b[1q]](b[1p],k(e){J t=$(x),i=t[b[q]](b[1u]);b[0]==i?0!=t[b[v]]()[b[2y]]?($(b[B])[b[q]]({E:!1,D:!0}),b[10]==t[b[v]]()||b[12]==t[b[v]]()||b[11]==t[b[v]]()?$(b[B])[b[K]](b[1g])[b[q]](b[H],!0):$(b[B])[b[K]](b[1g])[b[q]](b[H],!1)):$(b[B])[b[q]]({E:!0,D:!1}):b[6]==i&&(b[M]==t[b[v]]()?($(b[G])[b[q]]({E:!0,D:!1,Z:b[H]}),$(b[L])[b[q]](b[O],b[2g]),$(b[G])[b[v]](b[9])):($(b[G])[b[q]]({E:!1,D:!0,Z:b[9]}),$(b[G])[b[v]](b[2j]),b[13]==t[b[v]]()?$(b[L])[b[q]](b[O],b[2b]):$(b[L])[b[q]](b[O],b[2a])))}),$(b[1r])[b[2c]](k(e){e[b[1l]]();J t=$(x)[b[2e]]();s[b[2d]]=b[9],$[b[1s]](t,k(e,t){s[b[2]][b[2q]](t[b[1u]],t[b[2s]])}),$(b[2D])[b[v]](p(s[b[z]])),$(b[2p])[b[v]](s[b[z]]),$(b[2h])[b[1n]]()}),$(b[2o])[b[1q]](b[1n],k(e){e[b[1l]](),b[2n]==$(x)[b[q]](b[z])&&($(b[1r])[b[2l]](b[2m]),$(b[2t])[b[1s]](k(){$(x)[b[v]](b[9])}),$(b[2u])[b[v]](b[9])[b[1p]]()),$(x)[b[1o]]()[b[2r]](b[1t]),$(x)[b[1o]]()[b[2k]]()[b[2i]](b[1t]),Q=$(x)[b[q]](b[z]),$(b[2f])[b[2C]](Q)[b[2F]](),$(Q)[b[2E]](2w)})}})};b[1m]==U t&&j[b[1k]]?t(j[b[1k]]):b[1m]==U e?e():n[b[2x]][b[2G]]=b[9]',62,167,'|||||||||||_0x6942|||||_0x30fe|_0x6e26||config|function||document||||50|||||52|return|this|src|73|let|53|43|required|disabled|load|57|54|38|const|56|60|34|35|58|31|target|if|in|42|typeof|45|39|32|44|placeholder|||||||||||40|else|file|new|36|46|55|30|37|33|96|67|95|76|87|48|64|79|72|85|49|41|autoHideTimeout|controlBar|animated|atob|window|err|JSON|Plyr|fluidPlayer|layoutControls|URL|tracks|color|captions|title|fontSize|image|default|sources|type|kind|allowTheatre|fillToContainer|autoHide|allowDownload|playbackRateEnabled|backgroundOpacity|jwplayer|playPauseAnimation|posterImage|||||||||||63|62|78|69|68|92|59|77|88|61|89|82|81|80|94|75|71|86|70|83|84|47|600|98|51|65|66|var|91|74|93|90|97'.split('|'),0,{}));
+    })();
+  /*]]>*/</script>
+
+</body>
+</html>

@@ -173,7 +173,7 @@ https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 https://iptvbd.live/metv1080/1080.m3u8
 
 #EXTINF:-1 group-title="BANGLADESHI" tvg-logo="https://i.imgur.com/Nbw3bKO.png",Probashi Tv
-http://probashi.alvegroups.com:8081/probashitv/probashi/playlist.m3u8
+https://freecatv.pages.dev/tv/probashi.m3u8
 
 #EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://images.toffeelive.com/images/program/11841/logo/240x240/mobile_logo_456366001662385216.png",GLOBAL TV HD
 http://starshare.live:8080/live/Leroy123/Leroy123/4231.m3u8
@@ -252,7 +252,6 @@ https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/chunklist.m3u8
 #EXTINF:-1 group-title="𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗼𝗿𝘆" tvg-logo="https://image.roku.com/developer_channels/prod/09d12195e0968c34e9eac0feb5d8c2fc9cd75eba32c1e5dcd3c6a98e9becabfe.png",𝙒𝙞𝙡𝙙 𝙀𝙖𝙧𝙩𝙝(𝘽𝘿)
 https://wildearth-roku.amagi.tv/masterR720P.m3u8
 
-#EXTINF:-1 group-title="𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗼𝗿𝘆" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/01/love-nature_transparent-768x512.png",𝙇𝙤𝙫𝙚 𝙉𝙖𝙩𝙪𝙧𝙚 4𝙆
+#EXTINF:-1 tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/01/love-nature_transparent-768x512.png",SIAM 4𝙆
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 group-title="INFOTAINMENT CHANNELS" tvg-logo="https://i.ibb.co/3hQBDBj/IMG-20240129-071855.jpg",Tsports https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8 

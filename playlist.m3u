@@ -2,8 +2,35 @@
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/8jHFz4k/download.png" group-title="Cricket",🏏 RTA Sports  
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
 
-#EXTINF:-1 tvg-logo="https://banner2.cleanpng.com/20180614/rv/kisspng-television-channel-indian-premi-5b22148674c497.5024822115289601344783.jpg" group-title="Cricket",🏏 Willow
-https://livestreambd.netlify.app/stream/willow.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/FRVWnVgS/20241005-165038.png" group-title="Cricket",🏏 Tsports
+https://cinebuzz.netfy.live/myfiles/stream/tsports.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfadXz4wvkWwnzn_eccY07zbAedn3T9kYqazvJnVNz4dpVyiy-ydimhsf&s=10" group-title="Cricket",🏏 GTV
+https://cinebuzz.netfy.live/myfiles/stream/gtv.m3u8
+
+#EXTINF:-1 tvg-logo="https://admin.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2018/05/05/Star_Sports-Hindi.jpg?itok=ww67DqM_" group-title="Cricket", Star Sports 1
+https://cinebuzz.netfy.live/myfiles/stream/star1.m3u8
+
+#EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-1021-j5nj3c68-v1/imageContent-1021-j5nj3c68-m1.png" group-title="Cricket",Star Sports 2
+https://iptvcable.netlify.app/Altogether-007/StarSports2.m3u8
+
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="JagoBD",Sony Sports 1
+https://iptvcable.netlify.app/Altogether-007/SonySports1.m3u8
+
+#EXTINF:-1 tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png" group-title="JagoBD",Sony Sports 2
+https://iptvcable.netlify.app/Altogether-007/SonySports2.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/Sony_Sports_Ten_3.png/revision/latest/scale-to-width-down/460?cb=20221025085433" group-title="JagoBD",Sony Sports 3
+https://iptvcable.netlify.app/Altogether-007/SonySports3.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/95/Sony_Sports_Ten_4.png/revision/latest?cb=20221025090401" group-title="JagoBD",Sony Sports 4
+https://iptvcable.netlify.app/Altogether-007/SonySports4.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="JagoBD",Sony Sports 5
+https://iptvcable.netlify.app/Altogether-007/SonySports5.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/WbGN9Yw3/image.png" group-title="JagoBD",TYC Sports
+https://d1xm2jznwi5xzj.cloudfront.net/out/v1/34e0da501a8c4489b713809eb08a9bf3/index_14.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.jagobd.com/wp-content/uploads/2015/12/asiantv.jpg?x91288" group-title="JagoBD",Asian TV 
 https://mtlivestream.com/asian/ytlive/index.m3u8 

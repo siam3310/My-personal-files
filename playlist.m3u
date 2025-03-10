@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/t-sports.jpg",Tsports
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/t-sports.jpg",Tsports
 https://mytools-dyz.pages.dev/tv/ch/bdix.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/8jHFz4k/download.png" group-title="Cricket",RTA Sports  
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
@@ -7,29 +7,29 @@ https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://seeklogo.com/images/D/deepto-tv-logo-71DD610A34-seeklogo.com.png",DEEPTO TV 
 https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8 
 
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/Sony_Max.png",Sony Max
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Sony_Max.png",Sony Max
 https://mytools-dyz.pages.dev/tv/ch/ch1.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/star-jalsha.jpg",Star Jalsha
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/star-jalsha.jpg",Star Jalsha
 https://mytools-dyz.pages.dev/tv/ch/ch3.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/zee-bangla.jpg",Zee Bangla
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/zee-bangla.jpg",Zee Bangla
 https://mytools-dyz.pages.dev/tv/ch/ch4.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/channel9-hd.jpg",Channel 19
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/channel9-hd.jpg",Channel 9
 https://mytools-dyz.pages.dev/tv/ch/ch6.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/Ekhon_Logo.png",Ekhon
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Ekhon_Logo.png",Ekhon
 https://mytools-dyz.pages.dev/tv/ch/ch7.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/Discovery-channel.png",Discovery
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Discovery-channel.png",Discovery
 https://mytools-dyz.pages.dev/tv/ch/ch9.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/ARY-News.jpg",Ary News
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/ARY-News.jpg",Ary News
 https://mytools-dyz.pages.dev/tv/ch/ch10.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/BBC_Earth_logo.png",BBC Earth
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/BBC_Earth_logo.png",BBC Earth
 https://mytools-dyz.pages.dev/tv/ch/ch11.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/duronto-tv.jpg",Duronto
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/duronto-tv.jpg",Duronto
 https://mytools-dyz.pages.dev/tv/ch/ch12.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/9xm.jpg",9XM
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/9xm.jpg",9XM
 https://mytools-dyz.pages.dev/tv/ch/ch13.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/Al-Jazeera.png",Al Jazeera
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Al-Jazeera.png",Al Jazeera
 https://mytools-dyz.pages.dev/tv/ch/ch14.m3u8
-#EXTINF:-1 tvg-logo="http://kst.moonplex.net/iptv/img/logo/cnn.png",CNN
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/cnn.png",CNN
 https://mytools-dyz.pages.dev/tv/ch/ch15.m3u8
 
 #EXTINF:-1 group-title="BANGLADESHI" tvg-logo="https://www.deshitv.com/images//bangla_logo/DeshTV24-BanglaLogo.png",Deshi Tv
@@ -50,7 +50,7 @@ https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3
 #EXTINF:-1 group-title="MOVIES CHANNELS" tvg-logo="https://i.ibb.co/KjjqnRH/Picsart-23-06-30-21-35-20-283.png",SHEEMAROO BOLLYWOOD
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 
-#EXTINF:-1 group-title="MOVIES CHANNELS" tvg-logo="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sMeIy99DuD7eZjRvuxJ7OhrazjxRnLxrfCSuzDmi-Ymr7UwXA4tB7qTP7X0znb5g0SE5okD1MUvCBRax3V2RXYprIXKY0BPWFYc_BqVCqGCPCLak5z3yGZ2xtNjJw-dkSNHxQgXaZRruIf0pWXRGy13dyMviNgy6id-X_qpXfV2c3hXMyChAt0nJLUko70Kwu9Oc5YQmSZIVybIBPsfU88CUCayjY1_Xs=w1200-h800-p-k-no-nu",CLASSIC BOLLYWOOD
+#EXTINF:-1 group-title="MOVIES CHANNELS" tvg-logo=" ",CLASSIC BOLLYWOOD
 https://d35j504z0x2vu2.cloudfront.net:443/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
 
 #EXTINF:-1 group-title="MOVIES CHANNELS" tvg-logo="https://i.ibb.co/YNGyQJR/Picsart-23-06-25-22-19-02-657.png",BOLLYWOOD HD

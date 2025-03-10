@@ -1,36 +1,10 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/t-sports.jpg",Tsports
-https://mytools-dyz.pages.dev/tv/ch/bdix.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/8jHFz4k/download.png" group-title="Cricket",RTA Sports  
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
 
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://seeklogo.com/images/D/deepto-tv-logo-71DD610A34-seeklogo.com.png",DEEPTO TV 
 https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8 
-
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Sony_Max.png",Sony Max
-https://mytools-dyz.pages.dev/tv/ch/ch1.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/star-jalsha.jpg",Star Jalsha
-https://mytools-dyz.pages.dev/tv/ch/ch3.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/zee-bangla.jpg",Zee Bangla
-https://mytools-dyz.pages.dev/tv/ch/ch4.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/channel9-hd.jpg",Channel 9
-https://mytools-dyz.pages.dev/tv/ch/ch6.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Ekhon_Logo.png",Ekhon
-https://mytools-dyz.pages.dev/tv/ch/ch7.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Discovery-channel.png",Discovery
-https://mytools-dyz.pages.dev/tv/ch/ch9.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/ARY-News.jpg",Ary News
-https://mytools-dyz.pages.dev/tv/ch/ch10.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/BBC_Earth_logo.png",BBC Earth
-https://mytools-dyz.pages.dev/tv/ch/ch11.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/duronto-tv.jpg",Duronto
-https://mytools-dyz.pages.dev/tv/ch/ch12.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/9xm.jpg",9XM
-https://mytools-dyz.pages.dev/tv/ch/ch13.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Al-Jazeera.png",Al Jazeera
-https://mytools-dyz.pages.dev/tv/ch/ch14.m3u8
-#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/cnn.png",CNN
-https://mytools-dyz.pages.dev/tv/ch/ch15.m3u8
 
 #EXTINF:-1 group-title="BANGLADESHI" tvg-logo="https://www.deshitv.com/images//bangla_logo/DeshTV24-BanglaLogo.png",Deshi Tv
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8

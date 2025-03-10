@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/8jHFz4k/download.png" group-title="Cricket",🏏 RTA Sports  
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/8jHFz4k/download.png" group-title="Cricket",RTA Sports  
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
 
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://seeklogo.com/images/D/deepto-tv-logo-71DD610A34-seeklogo.com.png",DEEPTO TV 
@@ -41,80 +41,77 @@ https://iptvcable.netlify.app/M3U8/POGO.m3u8
 #EXTINF:-1 group-title="𝗞𝗶𝗱𝘀" tvg-logo="https://i.ibb.co/tpzX0DM/IMG-20240126-095849.png",𝙎𝙋𝘼𝘾𝙀𝙏𝙊𝙊𝙉
 https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="General", Solh TV
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/Hitube_QYaDLYguSf_2025_03_10_10_04_56.jpg" group-title="General", Solh TV
 https://ayassport.776740.ir.cdn.ir/hls2/solhtv.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Music", Joo Music
+#EXTINF:-1 tvg-logo="https://upload-cloudfalre-r2-assets.omrecipes.dev/zooER-oa-NqGzAR4HjEUGYBOfAcWvyoWGGIjZn3peR6xveFznWN6LvXCP_5A5zoB7gdE=w240-h480-rw.webp" group-title="Music", Joo Music
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Sports", Cricket Gold
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/49ecbf6a-bcfc-46af-a177-820a20501dd9/Cricket_Gold_Logo_16-9__2__-_Beej_Gefsky.jpg" group-title="Sports", Cricket Gold
 https://d382r3rgbxdixq.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/STIRR-MuxIP-CricketGold/418.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Entertainment", Star Jalsha
-http://45.148.145.57/IN_JALSHAMOVIES/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Sports", TSN 1
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/TSN1.svg" group-title="Sports", TSN 1
 https://fl5.moveonjoy.com/TSN_1/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Sports", TSN 2
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/TSN2_New_Logo.svg" group-title="Sports", TSN 2
 https://fl5.moveonjoy.com/TSN_2/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Sports", TSN 3
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/TSN3.svg/1024px-TSN3.svg.png" group-title="Sports", TSN 3
 https://fl5.moveonjoy.com/TSN_3/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Sports", beIN Sports 1
-https://dffgtrde.vffddd.online/bein1/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Sports", beIN Sports 2
-https://dffgtrde.vffddd.online/bein2/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Sports", beIN Sports 3
-https://dffgtrde.vffddd.online/bein3/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Entertainment", Khushbu Bangla
-https://cdn-4.pishow.tv/live/1473/1473_1.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Movies", B4U
-https://cdn-2.pishow.tv/live/227/master.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Music", B4U Music
-https://cdn-2.pishow.tv/live/415/master.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Sports", beIN Sports
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/BeIN-Sports-Logo.svg/640px-BeIN-Sports-Logo.svg.png" group-title="Sports", beIN Sports
 https://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Entertainment", Boishakhi TV
+#EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/bein-sports-13097.logowik.com.webp" group-title="Sports", beIN Sports 1
+https://dffgtrde.vffddd.online/bein1/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/t_bein-sports-25584.logowik.com.webp" group-title="Sports", beIN Sports 2
+https://dffgtrde.vffddd.online/bein2/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/t_bein-sports-31536.logowik.com.webp" group-title="Sports", beIN Sports 3
+https://dffgtrde.vffddd.online/bein3/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/c4/Khushboo_Bangla_logo_%282016-present%29.png" group-title="Entertainment", Khushbu Bangla
+https://cdn-4.pishow.tv/live/1473/1473_1.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/B4U_Network.png" group-title="Movies", B4U
+https://cdn-2.pishow.tv/live/227/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/74/B4U_Music_logo.png" group-title="Music", B4U Music
+https://cdn-2.pishow.tv/live/415/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/Boishakhi_Tv_Logo.png" group-title="Entertainment", Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Entertainment", Showbox
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/00/ShowBox_TV_logo.png" group-title="Entertainment", Showbox
 https://epiconvh.akamaized.net/live/showbox/master.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Entertainment", Enter10 Bangla
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mfkMlY_KKunF_Rm2HOAKw1Q-sDQaW8A66hC1m9n4RgMsc=s900-c-k-c0x00ffffff-no-rj" group-title="Entertainment", Enter10 Bangla
 https://cdn-singapore-5160-prod.tsv2.amagi.tv/linear/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Movies", HBO
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/51/HBO_HD_logo.png" group-title="Movies", HBO
 https://fl2.moveonjoy.com/HBO/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Sports", Wrestling
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/WWE_Network_logo.svg/712px-WWE_Network_logo.svg.png" group-title="Sports", Wrestling
 https://d3mwqwqfak7y2q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/ImpactWrestling-prod/hls/main.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Sports", Persiana Sports
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png" group-title="Sports", Persiana Sports
 https://ayassport.776740.ir.cdn.ir/hls2/persiana.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Music", Masti
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/mm/mastiii_tv_in.png" group-title="Music", Masti
 https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Music", Music India
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/mm/music_india.png" group-title="Music", Music India
 https://cdn-2.pishow.tv/live/226/master.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Entertainment", Maasranga TV
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/mm/maasranga_tv_bd.png" group-title="Entertainment", Maasranga TV
 https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Sports", Real Madrid TV
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/rr/real_madrid_tv_es_english.png" group-title="Sports", Real Madrid TV
 https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Sports", Matribhumi Sports
 https://matribhumi.globalplay.live/matribhumi-sports/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Movies", Sony Movies
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-movies-us-uk.png" group-title="Movies", Sony Movies
 https://fl3.moveonjoy.com/Sony_Movie_Channel/index.m3u8

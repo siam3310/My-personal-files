@@ -2,7 +2,7 @@
   "playlistName": "My VOD Playlist",
   "videos": [
     {
-      "title": "Movie 1",
+      "title": "Movie-1",
       "source": "streamtape",
       "id": "https://myvidplay.com/d/VzMjAvM7JJcKMBX"
     },

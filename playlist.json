@@ -4,17 +4,17 @@
     {
       "title": "Vod 1",
       "source": "streamtape",
-      "id": "x0jq5q1b41c3"
+      "id": "VzMjAvM7JJcKMBX"
     },
     {
       "title": "Vod 2",
       "source": "streamtape",
-      "id": "x0jq5q1b41c3"
+      "id": "https://streamtape.to/v/VzMjAvM7JJcKMBX"
     },
     {
       "title": "FreeGuy Movie",
       "source": "myvidplay",
-      "url": "https://myvidplay.com/d/x0jq5q1b41c3"
+      "url": "https://myvidplay.com/d/VzMjAvM7JJcKMBX"
     }
   ]
 }

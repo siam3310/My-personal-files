@@ -1,0 +1,20 @@
+{
+  "playlistName": "My Streamtape Playlist",
+  "videos": [
+    {
+      "title": "Vod 1",
+      "source": "streamtape",
+      "id": "x0jq5q1b41c3"
+    },
+    {
+      "title": "Vod 2",
+      "source": "streamtape",
+      "id": "x0jq5q1b41c3"
+    },
+    {
+      "title": "FreeGuy Movie",
+      "source": "myvidplay",
+      "url": "https://myvidplay.com/d/x0jq5q1b41c3"
+    }
+  ]
+}

@@ -1,20 +1,20 @@
 {
-  "playlistName": "My Streamtape Playlist",
+  "playlistName": "My VOD Playlist",
   "videos": [
     {
-      "title": "Vod 1",
+      "title": "Movie 1",
       "source": "streamtape",
-      "id": "VzMjAvM7JJcKMBX"
+      "id": "https://myvidplay.com/d/VzMjAvM7JJcKMBX"
     },
     {
-      "title": "Vod 2",
+      "title": "Movie 2",
       "source": "streamtape",
       "id": "https://streamtape.to/v/VzMjAvM7JJcKMBX"
     },
     {
       "title": "FreeGuy Movie",
-      "source": "myvidplay",
-      "url": "https://myvidplay.com/d/VzMjAvM7JJcKMBX"
+      "source": "direct",
+      "url": "https://siam3310.b-cdn.net/Şehabeddin Paşa'ya Veda... %23mehmedfetihlersultanı.mp4"
     }
   ]
 }

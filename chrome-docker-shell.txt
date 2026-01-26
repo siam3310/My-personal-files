@@ -1,0 +1,14 @@
+file:///config/Downloads/
+
+docker stop $(docker ps -aq) 2>/dev/null; \
+docker rm -vf $(docker ps -aq) 2>/dev/null; \
+docker system prune -af --volumes; \
+docker run -d \
+  --name chromium \
+  --restart unless-stopped \
+  -p 8080:5800 \
+  -v $HOME:/storage \
+  -e USER_ID=$(id -u) \
+  -e GROUP_ID=$(id -g) \
+  --shm-size=4gb \
+  jlesage/chromium

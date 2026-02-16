@@ -11,10 +11,11 @@ docker run -d \
   --shm-size=4gb \
   linuxserver/webtop:ubuntu-icewm
 
-
+sudo apt update && sudo apt install -y wine64
 chmod +x /config/Downloads/MacAttack.exe
 wine /config/Downloads/MacAttack.exe
 
-
+http://89.187.191.54/stalker_portal/c/
 http://main2.cwdn.cx/c/
 http://starshare.one:80/c/
+http://moul4tv.xyz/c/

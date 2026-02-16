@@ -1,0 +1,20 @@
+docker stop $(docker ps -aq) 2>/dev/null; \
+docker rm -vf $(docker ps -aq) 2>/dev/null; \
+docker system prune -af --volumes; \
+docker run -d \
+  --name tv-desktop-icewm \
+  --restart unless-stopped \
+  -p 8080:3000 \
+  -v $HOME:/storage \
+  -e PUID=$(id -u) \
+  -e PGID=$(id -g) \
+  --shm-size=4gb \
+  linuxserver/webtop:ubuntu-icewm
+
+
+chmod +x /config/Downloads/MacAttack.exe
+wine /config/Downloads/MacAttack.exe
+
+
+http://main2.cwdn.cx/c/
+http://starshare.one:80/c/

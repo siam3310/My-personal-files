@@ -1,0 +1,12 @@
+docker stop $(docker ps -aq) 2>/dev/null; \
+docker rm -vf $(docker ps -aq) 2>/dev/null; \
+docker system prune -af --volumes; \
+rm -rf ~/* 2>/dev/null; \
+rm -rf ~/.* 2>/dev/null; \
+docker run -d \
+    --name ultra-light-chrome \
+    -p 8080:5800 \
+    -v $HOME:/storage \
+    --shm-size=4gb \
+    -e ENABLE_CJK_FONT=1 \
+    jlesage/chromium

@@ -1,0 +1,1 @@
+INSERT INTO "public"."matches" ("id", "team_a", "team_b", "channel_ids", "status", "match_time", "is_featured", "position", "created_at") VALUES ('9c0ca330-6826-4a5a-a557-6431f4144a59', 'ICC T20', 'WORLD CUP', ARRAY["supercricket","skyscric","star1in","starhindi","star2in","willowusa","willowextra","ptvpk","skysme"], 'live', 'LIVE', 'true', '1', '2026-03-06 07:57:50.63616+00');
